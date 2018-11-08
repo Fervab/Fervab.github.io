@@ -1,0 +1,25 @@
+body {
+	font-size: 15px;
+	font-family: Georgia;, serif;
+	color: #334;
+}
+
+.progSkills {
+	color: red;
+	display: block;
+	float: left;
+}
+
+
+.miscSkills {
+	color: blue;
+	display: block;
+	float: right;
+	margin-left: 20em;
+	margin-top: 1em;	
+}
+
+.orgs {
+	color: green;
+	clear: 	both;
+}
