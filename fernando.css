@@ -1,6 +1,6 @@
 body {
 	font-size: 15px;
-	font-family: Georgia;, serif;
+	font-family: Georgia, serif;
 	color: #334;
 }
 
@@ -19,7 +19,12 @@ body {
 	margin-top: 1em;	
 }
 
+.coursework {
+	color:orange;
+	float: left;
+}
 .orgs {
 	color: green;
-	clear: 	both;
+	display: block;
+	float: right;
 }
