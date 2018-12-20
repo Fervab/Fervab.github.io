@@ -1,4 +1,4 @@
-body {
+/*body {
 	font-size: 15px;
 	font-family: Georgia, serif;
 	color: #334;
@@ -27,4 +27,47 @@ body {
 	color: green;
 	display: block;
 	float: right;
+}*/
+
+.name {
+    float: center;
+    padding-left: 30px;
+}
+
+.image{
+    float: left;
+    border-radius: 100%;
+    padding-right: 100px;
+}
+
+.expanding_panel .expanding_panel_trigger {
+	cursor: pointer;
+	color: #00a5d5;
+	font-weight: 600;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.expanding_panel .expanding_panel_trigger:hover {
+	color: #555;
+	text-decoration: underline;
+}
+
+.expanding_panel .expanding_panel_trigger::before{
+	content: '+ ';
+	padding-right: 5px;
+}
+
+.expanding_panel .expanding_panel_content_container {
+	overflow: hidden;
+}
+
+.expanding_panel .expanding_panel_content {
+	padding: 1px 0;
+}
+
+.expanding_panel.open .expanding_panel_trigger::before{
+	content: '\2013 ';
 }
